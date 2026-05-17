@@ -1,1 +1,14 @@
-The aim of this project is to create a tool similar to network scanning tools that supports the Arabic language and helps Arab programmers delve deeper into this field. 
+# 🛡️ ShadowScan - Advanced Security Toolsuite
+
+مرحباً بك في مستودع **ShadowScan**، حزمة الأدوات البرمجية الذكية المصممة والمطورة بالكامل بلغة بايثون لفحص الشبكات والمواقع بكل كفاءة وسرعة عبر الهاتف.
+
+---
+
+## 🚀 الأدوات المتوفرة في الحزمة (Tools Suite)
+
+### 1️⃣ ShadowScan - PortScanner
+* **الوصف:** أداة فحص المنافذ والخدمات النشطة على السيرفرات بشكل يحاكي أداة Nmap الشهيرة.
+* **التشغيل:**
+  ```bash
+  python badro_scanner.py
+
