@@ -1,39 +1,40 @@
-#
-
--
 # 🛡️ ShadowScan - Advanced Security Toolsuite
 
-مرحباً بك في مستودع **ShadowScan**، حزمة الأدوات البرمجية الذكية المصممة والمطورة بالكامل بلغة بايثون لفحص الشبكات، أتمتة البيانات، واختبار الاختراق بكل كفاءة عبر الهاتف.
+Welcome to the **ShadowScan** repository, an advanced and intelligent suite of security tools developed from scratch in Python. Designed for network scanning, data automation, penetration testing, and traffic analysis efficiently from mobile environments.
 
 ---
 
-## 🚀 الأدوات المتوفرة في الحزمة (Tools Suite)
+## 🚀 Available Tools in the Suite
 
 ### 1️⃣ ShadowScan - PortScanner
-* **الوصف:** أداة فحص المنافذ والخدمات النشطة على السيرفرات بشكل يحاكي أداة Nmap الشهيرة.
-* **التشغيل:** `python badro_scanner.py`
+* **Description:** Scans target servers to discover active ports and running services, simulating Nmap core features.
+* **Execution:** `python badro_scanner.py`
 
 ### 2️⃣ ShadowScan - DirFinder 🔓
-* **الوصف:** أداة ذكية لاكتشاف المجلدات والمسارات المخفية ولوحات التحكم في المواقع المستهدفة بدقة.
-* **التشغيل:** `python badro_dir.py`
+* **Description:** An intelligent directory brute-forcing tool to discover hidden paths and admin panels on web targets.
+* **Execution:** `python badro_dir.py`
 
 ### 3️⃣ ShadowScan - SubExtractor 🟢 *(Built from Scratch)*
-* **الوصف:** أداة قوية تم بناؤها بالكامل من الصفر لتفكيك واستخراج النطاقات الفرعية (Subdomains) النشطة عبر الـ DNS وحصد عناوين الـ IP الخاصة بها.
-* **التشغيل:** `python shadow_sub.py`
+* **Description:** A powerful DNS subdomain harvester built completely from scratch to extract active hosts and their IP mappings.
+* **Execution:** `python shadow_sub.py`
 
 ### 4️⃣ ShadowScan - CryptoTicker 🪙
-* **الوصف:** أداة أتمتة ذكية تتصل بـ APIs عالمية حية لجلب وتحليل أسعار العملات الرقمية الحالية من قلب السوق فوراً.
-* **التشغيل:** `python shadow_crypto.py`
+* **Description:** An automation script that connects to live global APIs to extract and analyze current cryptocurrency market prices in real-time.
+* **Execution:** `python shadow_crypto.py`
 
 ### 5️⃣ ShadowScan - HashBreaker 🔑
-* **الوصف:** أداة مخصصة لكسر تشفير هاشات MD5 برمجياً ومحاكاة هجمات التخمين (Brute-Force) بسرعة وكفاءة العالية.
-* **التشغيل:** `python shadow_breaker.py`
+* **Description:** A dedicated MD5 hash cracking tool designed to simulate brute-force attacks using custom wordlists efficiently.
+* **Execution:** `python shadow_breaker.py`
+
+### 6️⃣ ShadowScan - NetSniffer 📡
+* **Description:** A TCP Server Edition packet analyzer that listens to internal local traffic, captures incoming connection signatures, and extracts raw data payloads.
+* **Execution:** `python shadow_sniffer.py`
 
 ---
 
-## 🛠️ متطلبات التشغيل والتثبيت
+## 🛠️ Requirements & Installation
 
-الأدوات مصممة لتعمل بأقل متطلبات ممكنة، كل ما تحتاجه هو تثبيت مكتبة `requests` للأدوات التي تتصل بالإنترنت:
+The suite is optimized to run with minimal external dependencies. Install the required `requests` library using:
 
 ```bash
 sudo apt update && sudo apt install python3-requests -y
