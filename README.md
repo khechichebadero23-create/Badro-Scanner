@@ -30,12 +30,16 @@ Welcome to the **ShadowScan** repository, an advanced and intelligent suite of s
 * **Description:** A TCP Server Edition packet analyzer that listens to internal local traffic, captures incoming connection signatures, and extracts raw data payloads.
 * **Execution:** `python shadow_sniffer.py`
 
+### 7️⃣ ShadowScan - SSLVerifier 🛡️
+* **Description:** Connects to remote servers on port 443, extracts active SSL/TLS certificates, verifies expiry dates, and alerts against hostname mismatches and phishing domains.
+* **Execution:** `python shadow_ssl.py`
+
 ---
 
 ## 🛠️ Requirements & Installation
 
-The suite is optimized to run with minimal external dependencies. Install the required `requests` library using:
+The suite is optimized to run with minimal external dependencies. Install the required libraries using:
 
 ```bash
-sudo apt update && sudo apt install python3-requests -y
+sudo apt update && sudo apt install python3-requests python3-scapy -y
 
